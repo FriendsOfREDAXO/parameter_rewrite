@@ -1,0 +1,10 @@
+parameter_rewrite_title = Parameter Rewrite
+
+parameter_rewrite_config = Einstellungen
+parameter_rewrite_config_save = Einstellungen speichern
+parameter_rewrite_config_saved = Einstellungen wurden gespeichert!
+
+parameter_rewrite_params-starter = Parameter Trenner
+
+# Benennung für die Addonrechte, sichtbar innerhalb der REDAXO-Administration unter Benutzer > Rollen > Allgemein
+perm_general_parameter_rewrite[] = Rechte für Parameter Rewrite Konfiguration

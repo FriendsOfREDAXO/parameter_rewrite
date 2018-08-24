@@ -1,0 +1,14 @@
+package: parameter_rewrite
+version: '1.0.0'
+author: Peter Thiel
+supportpage: https://thielpeter.com
+
+requires:
+    packages:
+        yrewrite: '^2.0.0'
+    redaxo: '^5.2.0'
+
+pages:
+    yrewrite/parameter_rewrite:
+        title: translate:title
+        perm: parameter_rewrite[]
