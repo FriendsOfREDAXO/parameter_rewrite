@@ -18,7 +18,7 @@ Innerhalb der Settingspage kann der Parameter-Trenner festgelegt werden.
 
 Installation
 ------------
-Hinweis: dies ist kein Plugin!
+Hinweis: dies ist ein Plugin für das Addon yRewrite!
 
 * Release herunterladen und entpacken.
 * Ordner umbenennen in `parameter_rewrite`.
