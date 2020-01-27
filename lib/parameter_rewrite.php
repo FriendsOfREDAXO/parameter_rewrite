@@ -43,7 +43,7 @@ class parameter_rewrite {
 	
 	public static function prepare($ep){
 		if(rex_config::get('parameter_rewrite', 'params-starter') != ''){
-			$path = $_SERVER[REQUEST_URI];
+			$path = $_SERVER['REQUEST_URI'];
 			$paramsStarter = rex_config::get('parameter_rewrite', 'params-starter');
 					
 			if(strpos($path,$paramsStarter))
