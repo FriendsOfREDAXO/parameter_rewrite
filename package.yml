@@ -1,7 +1,7 @@
 package: parameter_rewrite
 version: '1.0.0'
-author: Peter Thiel
-supportpage: https://thielpeter.com
+author: Friends Of REDAXO
+supportpage: https://github.com/FriendsOfREDAXO/parameter_rewrite
 
 requires:
     packages:
