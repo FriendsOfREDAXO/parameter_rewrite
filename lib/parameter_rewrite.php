@@ -64,7 +64,7 @@ class parameter_rewrite {
 			$articleId = null;
 			$clangId = null;
 			
-			foreach (rex_yrewrite::$paths['paths'][rex_yrewrite::getCurrentDomain()->getName()] as $i_id => $i_cls) {
+            		foreach (rex_yrewrite::$paths['paths'][rex_yrewrite::getHost()] as $i_id => $i_cls) {
 				foreach (rex_clang::getAllIds() as $clang_id) {
 					if (isset($i_cls[$clang_id]) && $i_cls[$clang_id] == $path) {
 						$articleId = $i_id;
